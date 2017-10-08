@@ -1,0 +1,357 @@
+html{
+        background-color: #ccc;  
+    }
+
+body{
+    width: 85%; 
+    background-color: #fff;
+    margin:0 auto;  /* center me top-bottom 0auto 0auto*/
+    padding:0px 20px 20px 20px; /* Top Right Bottom Left */
+}
+
+    header {
+        background:#ebe3f6;
+		color:#FFF;
+        font-family: 'Mystery Quest', cursive, baskerville, palatino, 'palatino linotype', georgia, serif;
+        border-bottom: 2px solid #000;
+        border-top: 2px solid #000;
+	}
+
+/* img {
+    width: 50%;
+    height: auto;
+    max-width: 300px; 
+    max-height: 300px;
+} */ 
+
+img {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
+
+
+h1{
+    margin-top:0;
+    padding-top:20px; 
+}
+
+
+h3 {
+    
+    text-align: center; 
+}
+
+h3 a {
+        text-decoration:none;
+        color:#000;
+        font-size: 60px;
+        text-align: center; 
+}
+
+/* Portfolio page, floating text next to images. */ 
+
+.res {
+
+}
+
+.res img {
+
+    float: right;
+    border: 1px dotted black;
+    margin: 0px 0px 15px 20px;
+    
+    padding: 10px 10px 10px 10px;
+    
+    max-width: 275px; 
+    max-height: 275px;
+    
+}
+
+.res span {
+ 
+}
+
+
+.resjs {
+
+}
+
+.resjs img {
+
+    float: right;
+    border: 1px dotted black;
+    margin: 0px 0px 15px 20px;
+    
+    padding: 10px 10px 10px 10px;
+    
+    max-width: 275px; 
+    max-height: 275px;
+    
+
+}
+
+.resjs span {
+ 
+}
+
+
+.resphp1 {
+
+}
+
+.resphp1 img {
+
+    float: right;
+    border: 1px dotted black;
+    margin: 0px 0px 15px 20px;
+    
+    padding: 10px 10px 10px 10px;
+    
+    max-width: 275px; 
+    max-height: 275px;
+    
+
+}
+
+.resphp1 span {
+ 
+}
+
+
+.resphp2 {
+
+}
+
+.resphp2 img {
+
+    float: right;
+    border: 1px dotted black;
+    margin: 0px 0px 15px 20px;
+    
+    padding: 10px 10px 10px 10px;
+    
+    max-width: 275px; 
+    max-height: 275px;
+    
+
+}
+
+.resphp2 span {
+ 
+}
+
+
+.reswp {
+
+}
+
+.reswp img {
+
+    float: right;
+    border: 1px dotted black;
+    margin: 0px 0px 15px 20px;
+    
+    padding: 10px 10px 10px 10px;
+    
+    max-width: 275px; 
+    max-height: 275px;
+    
+
+}
+
+.reswp span {
+ 
+}
+
+
+.res {
+
+}
+
+.res img {
+
+    float: right;
+    border: 1px dotted black;
+    margin: 0px 0px 15px 20px;
+    
+    padding: 10px 10px 10px 10px;
+    
+    max-width: 275px; 
+    max-height: 275px;
+    
+
+}
+
+.res span {
+ 
+}
+
+/* footer */ 
+
+/* footer {
+    background:  #006699 none repeat scroll 0 0;
+    height: 70px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    border: 1px solid #000;
+    padding-bottom: 90px;    
+} */ 
+
+footer {
+    background:   none repeat scroll 0 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    background-color:#c6d9ec;
+    border: 1px solid #4D0000;    
+}
+
+
+footer p {
+    color: #000;
+    font-family: "Georgia",serif;
+    font-size: 16px;
+    line-height: 15px;
+    /* padding-top: 10px; */  
+    padding-top: inherit; 
+    
+}
+footer a {
+    color: #000;
+    font-family: "Georgia",serif;
+    font-size: 10px;
+    
+}
+footer a:hover {
+    color: #777;
+    font-family: "Georgia",serif;
+    font-size: 10px;
+}
+
+footer small {
+    color: #000;
+    font-family: "Georgia",serif;
+    font-size: 10px;
+    
+}
+
+/*
+footer{
+     text-align: center;
+}
+*/ 
+
+
+
+
+	/* nav */
+
+
+	nav.main {
+		margin: 30px 0 10px 0;
+		clear:both;
+		z-index:1000;
+        background-color:#c6d9ec;
+        border: 1px solid #4D0000;
+        
+	}
+	nav.main ul {
+		margin: 0;
+		padding: 0;
+	}
+	nav.main li {
+		margin: 5px 5px 5px 0;
+		padding: 0;
+		list-style: none;
+		display: inline-block;
+	}
+	
+	nav.main a {
+		padding: 3px 3px;
+		text-decoration: none;
+		color: #000;
+		line-height: 100%;
+	}
+	
+	nav.main a:hover {
+		color: #777;
+	}
+	
+	nav.main .current a {
+		background: #660033;
+		color: #fff;
+		border-radius: 5px;
+	}
+	
+	/* right nav */
+	nav.main.right ul {
+		text-align: right;
+	}
+	
+	/* center nav */
+	nav.main.center ul {
+		text-align: center;
+        color:#000;
+	}
+    
+	/* center nav */
+	nav.main.center li {
+		border-right: 1px dotted #4D0000;
+        padding-right: .5em;
+	}
+    
+    nav.main.center li:last-child {
+        border-right: none;
+    }
+
+
+/* RESPONSIVE STYLE */
+/* DESKTOP styles for anything bigger than 999px */
+
+@media all and (min-width: 1px) {
+    html{
+        background-color:#666;
+    }
+    
+    img.desktop{
+        float:top;
+        display:inline-block;
+    }
+}
+
+/* TABLET styles between 480px and 999px */
+
+
+@media all and (min-width: 480px) and (max-width:999px) {
+    h3 {
+    
+    text-align: center; 
+    }
+
+h3 a {
+        text-decoration:none;
+        color:#000;
+        font-size: 48px;
+        text-align: center; 
+    }
+}
+
+/* PHONE styles for less than 480px */
+
+@media all and (max-width: 479px) {
+    h3 {
+    
+    text-align: center; 
+    }
+
+    h3 a {
+        text-decoration:none;
+        color:#000;
+        font-size: 36px;
+        text-align: center; 
+    }
+}
